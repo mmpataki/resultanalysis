@@ -1,0 +1,33 @@
+# This is a config file for Result Analysis
+#
+# The lines preceeding with # are comments which are ignored
+#
+# Specify options as OptionName : OptionValue
+# The OptionNames are case insensitive
+# 
+# Mandatory
+# 1. DBUserName    (Database username usually root)
+DBUserName : root
+
+# 2. DBPassword    (Password for the database user)
+DBPassword : sdmcet@2016
+
+# 3. TempDirectory
+# (Directory where the temporary file can be found [Helps in Debugging])
+# You can use any type of path relative as "." or absolute as
+# "C:\Users\A Mahesh Bhat\Desktop\Documents1\ResultAnalysis"
+TempDir : .
+
+# Optional
+# Don't change until you really know what these are
+
+# 4. DBHost (Ip/Host name of the machine)
+# DBHost : localhost
+
+# 5. DBPort (Port on which the mySQL is running)
+# DBPort : 3306
+
+# 6. DBName        (Database name)
+# DBName : exam_section
+#
+# To get the default values comment that line using '#'

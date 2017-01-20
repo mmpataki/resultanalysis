@@ -1,0 +1,13 @@
+Install the following sequentially
+
+1. JDK 1.8 or later
+2. Netbeans
+3. MySQL server/community
+4. innosetup-5.5.9_2		(set the path variable to point to the Inno-Setup folder)
+
+Steps to start
+1. Open Netbeans
+2. Open project Result Analysis in NetBeans
+3. Make any modifications to code you want and build
+4. Right click on the project click Publish -> EXE Installer
+5. After some time take a look at logs in output section you will find the path to the installer.
